@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{046343BE-5B4D-DE5C-2483-875B70157D44}</ProjectGuid>
+    <ProjectGuid>{C471DB81-6F11-ED96-5ACE-C92BC36B4DB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -65,11 +65,11 @@
     <Compile Include="Assets\UnityAssets\NoiseBrush\Scripts\Editor\NoiseBrushEditor.cs" />
     <Compile Include="Assets\UnityAssets\RTS_Camera\Scripts\Editor\LayoutHelpers.cs" />
     <Compile Include="Assets\UnityAssets\RTS_Camera\Scripts\Editor\RTS_CameraEditor.cs" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -312,19 +312,19 @@
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="MP_TD.App">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MP_TD.App.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MP_TD.App.dll</HintPath>
     </Reference>
     <Reference Include="MP_TD.Base">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MP_TD.Base.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MP_TD.Base.dll</HintPath>
     </Reference>
     <Reference Include="MP_TD.Shared">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MP_TD.Shared.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MP_TD.Shared.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MySql.Data.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="NPoco">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/NPoco.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/NPoco.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Christof/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -377,15 +377,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B11AFEC6-1351-33D3-758C-9B4949A5BF89}</Project>
+      <Project>{69EBF652-B933-0BCC-87F9-802F62F11521}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6F8F0658-2D66-21CB-C16A-A48D3BD3653B}</Project>
+      <Project>{0E4FB4C7-53A3-251E-92DA-3553701C4E69}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{00B77E87-43A8-26F2-3D84-0CA1B093648B}</Project>
+      <Project>{7F6D9073-916A-F2EB-AD9C-1524A863734E}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

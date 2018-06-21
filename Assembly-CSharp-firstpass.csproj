@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B11AFEC6-1351-33D3-758C-9B4949A5BF89}</ProjectGuid>
+    <ProjectGuid>{69EBF652-B933-0BCC-87F9-802F62F11521}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -120,11 +120,11 @@
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -322,19 +322,19 @@
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="MP_TD.App">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MP_TD.App.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MP_TD.App.dll</HintPath>
     </Reference>
     <Reference Include="MP_TD.Base">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MP_TD.Base.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MP_TD.Base.dll</HintPath>
     </Reference>
     <Reference Include="MP_TD.Shared">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MP_TD.Shared.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MP_TD.Shared.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/MySql.Data.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="NPoco">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD/Assets/Plugins/NPoco.dll</HintPath>
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Assets/Plugins/NPoco.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Christof/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
