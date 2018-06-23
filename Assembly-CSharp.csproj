@@ -62,9 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MyCam.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
     <Compile Include="Assets\Scripts\BtnClick.cs" />
     <Compile Include="Assets\Scripts\BuildingScript.cs" />
     <Compile Include="Assets\Scripts\EventHandler.cs" />
+    <Compile Include="Assets\Scripts\Gamecontroller.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UIHandler.cs" />
     <Compile Include="Assets\UnityAssets\AssetStore\Knight\scripts\rotator.cs" />
@@ -83,11 +85,11 @@
     <None Include="Assets\UnityAssets\RTS_Camera\Demo\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\UnityAssets\RTS_Camera\Demo\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\UnityAssets\AssetStore\Horse\SoftAlpha.shader" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -28,9 +28,11 @@ class EventHandler : MonoBehaviour
             if(Physics.Raycast(mouseRay, out hit))
             {
                 UIHandler handler = UI.GetComponent<UIHandler>();
+                BtnClick btnHandler = UI.GetComponent<BtnClick>();
                 if(buildings.Select(x => x.Name).Contains(hit.transform.tag))
                 {
                     handler.SetUI(hit.transform.tag);
+                    btnHandler.SelectedGameObject = hit.transform.gameObject;
                 }
             }
         }

@@ -25,15 +25,18 @@ class UIHandler : MonoBehaviour
     {
         for(int i = 0; i < Canvas.childCount; i++)
         {
-            var child = Canvas.GetChild(i);
-            if(child.transform.tag == "Panel")
+            for (int t = 0; t < Canvas.GetChild(i).childCount; t++)
             {
-                child.gameObject.SetActive(false);
-            }
+                var child = Canvas.GetChild(i).GetChild(t);
+                if (child.transform.tag == "Panel")
+                {
+                    child.gameObject.SetActive(false);
+                }
 
-            if(child.transform.name == buildingTag + "Panel")
-            {
-                child.gameObject.SetActive(true);
+                if (child.transform.name == buildingTag + "Panel")
+                {
+                    child.gameObject.SetActive(true);
+                }
             }
         }
     }

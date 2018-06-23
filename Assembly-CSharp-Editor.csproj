@@ -65,11 +65,11 @@
     <Compile Include="Assets\UnityAssets\NoiseBrush\Scripts\Editor\NoiseBrushEditor.cs" />
     <Compile Include="Assets\UnityAssets\RTS_Camera\Scripts\Editor\LayoutHelpers.cs" />
     <Compile Include="Assets\UnityAssets\RTS_Camera\Scripts\Editor\RTS_CameraEditor.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

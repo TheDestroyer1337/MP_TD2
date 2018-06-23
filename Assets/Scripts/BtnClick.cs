@@ -10,6 +10,8 @@ public class BtnClick : MonoBehaviour {
     RaycastHit hitInfo;
     bool newInstance = false;
     private PlayerController controller;
+    public GameObject SelectedGameObject;
+    public GameObject AttackFlag;
 
 	// Use this for initialization
 	void Start () {
@@ -53,8 +55,24 @@ public class BtnClick : MonoBehaviour {
 
     public void WorkerBtnClicked()
     {
-
+        CreateUnit("Worker");
     }
+
+    public void WardogBtnClicked()
+    {
+        CreateUnit("Wardog");
+    }
+
+    public void WarriorBtnClicked()
+    {
+        CreateUnit("Warrior");
+    }
+
+    public void GolemBtnClicked()
+    {
+        CreateUnit("Golem");
+    }
+
 
     private void CreateGameObject(string prefAb)
     {
@@ -62,6 +80,12 @@ public class BtnClick : MonoBehaviour {
         var toAdd = Prefabs.Find(x => x.name == prefAb);
         ObjectToAdd = Instantiate(toAdd, hitInfo.point, Quaternion.Euler(-90, 0, 0));
         newInstance = true;
+    }
+
+    private void CreateUnit(string prefAb)
+    {
+        var toAdd = Prefabs.Find(x => x.name == prefAb);
+        Instantiate(toAdd, SelectedGameObject.transform.position, Quaternion.Euler(0,0,0));
     }
 
     void CastRay()

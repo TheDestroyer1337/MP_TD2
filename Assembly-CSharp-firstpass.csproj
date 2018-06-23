@@ -120,11 +120,11 @@
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>F:/Programme/Programmieren/Projekte/MP_TD2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Programme/Programmieren/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
