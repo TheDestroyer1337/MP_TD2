@@ -85,7 +85,8 @@ public class BtnClick : MonoBehaviour {
     private void CreateUnit(string prefAb)
     {
         var toAdd = Prefabs.Find(x => x.name == prefAb);
-        Instantiate(toAdd, SelectedGameObject.transform.position, Quaternion.Euler(0,0,0));
+        GameObject InstaUnit = Instantiate(toAdd, SelectedGameObject.transform.position, Quaternion.Euler(0,0,0));
+        Gamecontroller.instance.GetComponent<UnitAI>().AddUnit(InstaUnit);
     }
 
     void CastRay()

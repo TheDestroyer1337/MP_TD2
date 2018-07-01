@@ -11,6 +11,7 @@ TagManager:
   - Sawmill
   - Mill_Backery
   - Barracks
+  - AttackFlag
   layers:
   - Default
   - TransparentFX

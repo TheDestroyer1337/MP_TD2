@@ -1134,6 +1134,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4000012322933416}
   - component: {fileID: 95000011610634314}
+  - component: {fileID: 143975609601727166}
+  - component: {fileID: 114995555174840914}
+  - component: {fileID: 136498408503554242}
   m_Layer: 0
   m_Name: Worker
   m_TagString: Untagged
@@ -1725,7 +1728,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014232435074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 628.6895, y: 50.03153, z: 464.10062}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4000011795583172}
@@ -2209,6 +2212,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114995555174840914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014232435074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c666dc6557508e44e99189d1144c9082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &136498408503554242
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014232435074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.85, z: 0}
 --- !u!137 &137000010454974400
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2613,3 +2640,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0012865886, y: 0.7127457, z: -0.021865204}
     m_Extent: {x: 0.0778497, y: 0.10812485, z: 0.13620792}
   m_DirtyAABB: 0
+--- !u!143 &143975609601727166
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014232435074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
