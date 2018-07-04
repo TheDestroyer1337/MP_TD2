@@ -12,6 +12,7 @@ TagManager:
   - Mill_Backery
   - Barracks
   - AttackFlag
+  - NetworkManager
   layers:
   - Default
   - TransparentFX

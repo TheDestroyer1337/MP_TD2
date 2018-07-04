@@ -62,14 +62,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MyCam.cs" />
-    <Compile Include="Assets\Scripts\BtnClick.cs" />
-    <Compile Include="Assets\Scripts\BuildingScript.cs" />
-    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
-    <Compile Include="Assets\Scripts\EventHandler.cs" />
-    <Compile Include="Assets\Scripts\Gamecontroller.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\UIHandler.cs" />
-    <Compile Include="Assets\Scripts\UnitAI.cs" />
+    <Compile Include="Assets\Scripts\Main\BtnClick.cs" />
+    <Compile Include="Assets\Scripts\Main\BuildingScript.cs" />
+    <Compile Include="Assets\Scripts\Main\CollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\Main\EventHandler.cs" />
+    <Compile Include="Assets\Scripts\Main\Gamecontroller.cs" />
+    <Compile Include="Assets\Scripts\Main\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Main\PlayerNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Main\PNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Main\UIHandler.cs" />
+    <Compile Include="Assets\Scripts\Main\UnitAI.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\DontDestroyOnLoad.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\StartScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -112,6 +117,17 @@
     <Compile Include="Assets\UnityAssets\RTS_Camera\Demo\DemoScene.cs" />
     <Compile Include="Assets\UnityAssets\RTS_Camera\Demo\TargetSelector.cs" />
     <Compile Include="Assets\UnityAssets\RTS_Camera\Scripts\RTS_Camera.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\DragMe.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\DropMe.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\UnityAssets\Sample UI\Scripts\TiltWindow.cs" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -121,10 +137,12 @@
     <None Include="Assets\UnityAssets\RTS_Camera\Demo\Projectors\Guidelines.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\UnityAssets\Sample UI\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\UnityAssets\Terrain_Textures\about.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\UnityAssets\Sample UI\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -136,6 +154,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\UnityAssets\NaturalTilingTextures\External\ShaderForge_NTT_Triplanar.shader" />
+    <None Include="Assets\UnityAssets\Sample UI\Materials\UI-Default-No-Alpha.shader" />
     <None Include="Assets\UnityAssets\RTS_Camera\Demo\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\UnityAssets\RTS_Camera\Demo\Projectors\Shaders\ProjectorMultiply.shader" />
