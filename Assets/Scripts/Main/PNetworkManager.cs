@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using System.ComponentModel;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 //Note the Network behaviour!!
 public class PNetworkManager : NetworkBehaviour
@@ -25,9 +26,9 @@ public class PNetworkManager : NetworkBehaviour
         //manager = GameObject.FindGameObjectWithTag("NetworkManager").GetComponent<NetworkManager>();
     }
 
-    void OnLevelWasLoaded()
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (currentScene == 1)
+        if (scene.buildIndex == 1)
         {
             manager.StartClient();
             Debug.Log("I tried to start as client");
